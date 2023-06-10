@@ -1,0 +1,1 @@
+create table student(sroll int not null primary key, sname varchar(255),sfname varchar(255),sdob varchar(255),semail varchar(255),smob long,sgender varchar(255),spin int,sadd varchar(255),course varchar(255));

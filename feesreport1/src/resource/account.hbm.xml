@@ -1,0 +1,19 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+    <hibernate-mapping>
+    <class name="beans.SRegisterBeans" table="accountent" schema="fee_report">
+    <id name="Aid" column="aeid"/>
+    <property name="name" column="aname"></property>
+    <property name="fname" column="afname"></property>
+    <property name="dob" column="adob"></property>
+    <property name="email" column="aemail"></property>
+    <property name="mob" column="amon"></property>
+    <property name="pass" column="apass"></property>
+    <property name="gender" column="agender"></property>
+    <property name="pinno" column="apin"></property>
+    <property name="addr" column="aadd"></property>
+   
+    
+    </class>
+    </hibernate-mapping>
